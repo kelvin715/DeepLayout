@@ -17,8 +17,8 @@ if __name__ == "__main__":
     parser.add_argument("--threshold", type=int, default=16, help="threshold for grayscale values")
 
     # COCO/PubLayNet options
-    parser.add_argument("--train_json", default="./instances_train.json", help="/path/to/train/json")
-    parser.add_argument("--val_json", default="./instances_val.json", help="/path/to/val/json")
+    parser.add_argument("--train_json", default="/Data4/student_zhihan_data/Diffusion/annotations/panoptic_train2017.json", help="/path/to/train/json")
+    parser.add_argument("--val_json", default="/Data4/student_zhihan_data/Diffusion/annotations/panoptic_val2017.json", help="/path/to/val/json")
 
     # Layout options
     parser.add_argument("--max_length", type=int, default=128, help="batch size")

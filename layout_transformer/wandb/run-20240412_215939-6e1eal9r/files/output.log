@@ -1,0 +1,4 @@
+  0%|                                                                                                                                                                                                        | 0/1848 [00:00<?, ?it/s]
+/Data4/student_zhihan_data/Anaconda3/envs/control/lib/python3.8/site-packages/numpy/core/fromnumeric.py:3432: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/Data4/student_zhihan_data/Anaconda3/envs/control/lib/python3.8/site-packages/numpy/core/_methods.py:190: RuntimeWarning: invalid value encountered in double_scalars

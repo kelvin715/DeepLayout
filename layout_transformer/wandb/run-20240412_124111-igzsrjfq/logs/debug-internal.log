@@ -1,0 +1,69 @@
+2024-04-12 12:41:11,445 INFO    StreamThr :3070325 [internal.py:wandb_internal():86] W&B internal server running at pid: 3070325, started at: 2024-04-12 12:41:11.443787
+2024-04-12 12:41:11,449 DEBUG   HandlerThread:3070325 [handler.py:handle_request():146] handle_request: status
+2024-04-12 12:41:11,455 INFO    WriterThread:3070325 [datastore.py:open_for_write():87] open: /Data4/student_zhihan_data/Diffusion/DeepLayout/layout_transformer/wandb/run-20240412_124111-igzsrjfq/run-igzsrjfq.wandb
+2024-04-12 12:41:11,456 DEBUG   SenderThread:3070325 [sender.py:send():378] send: header
+2024-04-12 12:41:11,513 DEBUG   SenderThread:3070325 [sender.py:send():378] send: run
+2024-04-12 12:41:12,052 INFO    SenderThread:3070325 [dir_watcher.py:__init__():211] watching files in: /Data4/student_zhihan_data/Diffusion/DeepLayout/layout_transformer/wandb/run-20240412_124111-igzsrjfq/files
+2024-04-12 12:41:12,053 INFO    SenderThread:3070325 [sender.py:_start_run_threads():1099] run started: igzsrjfq with start time 1712896871.442444
+2024-04-12 12:41:12,072 DEBUG   HandlerThread:3070325 [handler.py:handle_request():146] handle_request: check_version
+2024-04-12 12:41:12,073 DEBUG   SenderThread:3070325 [sender.py:send_request():405] send_request: check_version
+2024-04-12 12:41:12,131 DEBUG   HandlerThread:3070325 [handler.py:handle_request():146] handle_request: run_start
+2024-04-12 12:41:12,138 DEBUG   HandlerThread:3070325 [system_info.py:__init__():26] System info init
+2024-04-12 12:41:12,139 DEBUG   HandlerThread:3070325 [system_info.py:__init__():41] System info init done
+2024-04-12 12:41:12,139 INFO    HandlerThread:3070325 [system_monitor.py:start():194] Starting system monitor
+2024-04-12 12:41:12,139 INFO    SystemMonitor:3070325 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-12 12:41:12,140 INFO    HandlerThread:3070325 [system_monitor.py:probe():214] Collecting system info
+2024-04-12 12:41:12,141 INFO    SystemMonitor:3070325 [interfaces.py:start():190] Started cpu monitoring
+2024-04-12 12:41:12,143 INFO    SystemMonitor:3070325 [interfaces.py:start():190] Started disk monitoring
+2024-04-12 12:41:12,147 INFO    SystemMonitor:3070325 [interfaces.py:start():190] Started gpu monitoring
+2024-04-12 12:41:12,149 INFO    SystemMonitor:3070325 [interfaces.py:start():190] Started memory monitoring
+2024-04-12 12:41:12,151 INFO    SystemMonitor:3070325 [interfaces.py:start():190] Started network monitoring
+2024-04-12 12:41:12,204 DEBUG   HandlerThread:3070325 [system_info.py:probe():150] Probing system
+2024-04-12 12:41:12,214 DEBUG   HandlerThread:3070325 [system_info.py:_probe_git():135] Probing git
+2024-04-12 12:41:12,231 DEBUG   HandlerThread:3070325 [system_info.py:_probe_git():143] Probing git done
+2024-04-12 12:41:12,232 DEBUG   HandlerThread:3070325 [system_info.py:probe():198] Probing system done
+2024-04-12 12:41:12,232 DEBUG   HandlerThread:3070325 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-69-generic-x86_64-with-glibc2.10', 'python': '3.8.5', 'heartbeatAt': '2024-04-12T04:41:12.204903', 'startedAt': '2024-04-12T04:41:11.431633', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Data4/student_zhihan_data/Diffusion/DeepLayout/layout_transformer/main.py', 'codePathLocal': 'main.py', 'codePath': 'layout_transformer/main.py', 'git': {'remote': 'https://github.com/kampta/DeepLayout.git', 'commit': '60ebaca7f29a14d92c455f83e681c0bd8e2962fe'}, 'email': '1159123116@qq.com', 'root': '/Data4/student_zhihan_data/Diffusion/DeepLayout', 'host': 'kav-gpu-level12', 'username': 'student_zhihan', 'executable': '/Data4/student_zhihan_data/Anaconda3/envs/control/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2168.8190833333333, 'min': 1200.0, 'max': 4000.0}, 'cpu_freq_per_core': [{'current': 3556.73, 'min': 1200.0, 'max': 4000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 4000.0}, {'current': 1300.0, 'min': 1200.0, 'max': 4000.0}, {'current': 1327.771, 'min': 1200.0, 'max': 4000.0}, {'current': 4000.0, 'min': 1200.0, 'max': 4000.0}, {'current': 4000.0, 'min': 1200.0, 'max': 4000.0}, {'current': 2600.0, 'min': 1200.0, 'max': 4000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 4000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 4000.0}, {'current': 1300.0, 'min': 1200.0, 'max': 4000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 4000.0}, {'current': 1500.0, 'min': 1200.0, 'max': 4000.0}], 'disk': {'/': {'total': 1832.2072448730469, 'used': 1078.660888671875}}, 'gpu': 'NVIDIA TITAN Xp', 'gpu_count': 4, 'gpu_devices': [{'name': 'NVIDIA TITAN Xp', 'memory_total': 12884901888}, {'name': 'NVIDIA TITAN Xp', 'memory_total': 12884901888}, {'name': 'NVIDIA TITAN Xp', 'memory_total': 12884901888}, {'name': 'NVIDIA TITAN Xp', 'memory_total': 12884901888}], 'memory': {'total': 125.7182846069336}}
+2024-04-12 12:41:12,232 INFO    HandlerThread:3070325 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-12 12:41:12,232 INFO    HandlerThread:3070325 [system_monitor.py:probe():227] Publishing system info
+2024-04-12 12:41:12,232 DEBUG   HandlerThread:3070325 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-04-12 12:41:13,059 INFO    Thread-17 :3070325 [dir_watcher.py:_on_file_created():271] file/dir created: /Data4/student_zhihan_data/Diffusion/DeepLayout/layout_transformer/wandb/run-20240412_124111-igzsrjfq/files/conda-environment.yaml
+2024-04-12 12:41:16,588 DEBUG   HandlerThread:3070325 [system_info.py:_save_conda():219] Saving conda packages done
+2024-04-12 12:41:16,594 INFO    HandlerThread:3070325 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-12 12:41:16,607 DEBUG   SenderThread:3070325 [sender.py:send():378] send: files
+2024-04-12 12:41:16,607 INFO    SenderThread:3070325 [sender.py:_save_file():1365] saving file wandb-metadata.json with policy now
+2024-04-12 12:41:16,608 DEBUG   HandlerThread:3070325 [handler.py:handle_request():146] handle_request: status_report
+2024-04-12 12:41:17,054 INFO    Thread-17 :3070325 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Data4/student_zhihan_data/Diffusion/DeepLayout/layout_transformer/wandb/run-20240412_124111-igzsrjfq/files/conda-environment.yaml
+2024-04-12 12:41:17,055 INFO    Thread-17 :3070325 [dir_watcher.py:_on_file_created():271] file/dir created: /Data4/student_zhihan_data/Diffusion/DeepLayout/layout_transformer/wandb/run-20240412_124111-igzsrjfq/files/wandb-metadata.json
+2024-04-12 12:41:17,330 DEBUG   HandlerThread:3070325 [handler.py:handle_request():146] handle_request: python_packages
+2024-04-12 12:41:17,330 DEBUG   SenderThread:3070325 [sender.py:send_request():405] send_request: python_packages
+2024-04-12 12:41:17,333 DEBUG   HandlerThread:3070325 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-12 12:41:17,334 DEBUG   SenderThread:3070325 [sender.py:send_request():405] send_request: stop_status
+2024-04-12 12:41:17,342 DEBUG   HandlerThread:3070325 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-12 12:41:17,419 INFO    wandb-upload_0:3070325 [upload_job.py:push():131] Uploaded file /tmp/tmpotvioirvwandb/bx78ppfr-wandb-metadata.json
+2024-04-12 12:41:17,641 DEBUG   SenderThread:3070325 [sender.py:send():378] send: telemetry
+2024-04-12 12:41:17,641 DEBUG   SenderThread:3070325 [sender.py:send():378] send: config
+2024-04-12 12:41:18,055 INFO    Thread-17 :3070325 [dir_watcher.py:_on_file_created():271] file/dir created: /Data4/student_zhihan_data/Diffusion/DeepLayout/layout_transformer/wandb/run-20240412_124111-igzsrjfq/files/requirements.txt
+2024-04-12 12:41:20,056 INFO    Thread-17 :3070325 [dir_watcher.py:_on_file_created():271] file/dir created: /Data4/student_zhihan_data/Diffusion/DeepLayout/layout_transformer/wandb/run-20240412_124111-igzsrjfq/files/output.log
+2024-04-12 12:41:21,805 DEBUG   HandlerThread:3070325 [handler.py:handle_request():146] handle_request: status_report
+2024-04-12 12:41:22,059 INFO    Thread-17 :3070325 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Data4/student_zhihan_data/Diffusion/DeepLayout/layout_transformer/wandb/run-20240412_124111-igzsrjfq/files/output.log
+2024-04-12 12:41:26,806 DEBUG   HandlerThread:3070325 [handler.py:handle_request():146] handle_request: status_report
+2024-04-12 12:41:31,807 DEBUG   HandlerThread:3070325 [handler.py:handle_request():146] handle_request: status_report
+2024-04-12 12:41:32,332 DEBUG   HandlerThread:3070325 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-12 12:41:32,333 DEBUG   SenderThread:3070325 [sender.py:send_request():405] send_request: stop_status
+2024-04-12 12:41:32,339 DEBUG   HandlerThread:3070325 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-12 12:41:37,658 DEBUG   HandlerThread:3070325 [handler.py:handle_request():146] handle_request: status_report
+2024-04-12 12:41:42,673 DEBUG   HandlerThread:3070325 [handler.py:handle_request():146] handle_request: status_report
+2024-04-12 12:41:43,067 INFO    Thread-17 :3070325 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Data4/student_zhihan_data/Diffusion/DeepLayout/layout_transformer/wandb/run-20240412_124111-igzsrjfq/files/config.yaml
+2024-04-12 12:41:47,332 DEBUG   HandlerThread:3070325 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-12 12:41:47,333 DEBUG   SenderThread:3070325 [sender.py:send_request():405] send_request: stop_status
+2024-04-12 12:41:47,375 DEBUG   HandlerThread:3070325 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-12 12:41:48,637 DEBUG   HandlerThread:3070325 [handler.py:handle_request():146] handle_request: status_report
+2024-04-12 12:41:53,637 DEBUG   HandlerThread:3070325 [handler.py:handle_request():146] handle_request: status_report
+2024-04-12 12:41:58,639 DEBUG   HandlerThread:3070325 [handler.py:handle_request():146] handle_request: status_report
+2024-04-12 12:42:02,332 DEBUG   HandlerThread:3070325 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-12 12:42:02,333 DEBUG   SenderThread:3070325 [sender.py:send_request():405] send_request: stop_status
+2024-04-12 12:42:02,375 DEBUG   HandlerThread:3070325 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-12 12:42:04,603 DEBUG   HandlerThread:3070325 [handler.py:handle_request():146] handle_request: status_report
+2024-04-12 12:42:09,604 DEBUG   HandlerThread:3070325 [handler.py:handle_request():146] handle_request: status_report
+2024-04-12 12:42:12,152 DEBUG   SystemMonitor:3070325 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-12 12:42:12,155 DEBUG   SenderThread:3070325 [sender.py:send():378] send: stats

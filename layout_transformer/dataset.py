@@ -113,12 +113,15 @@ class JSONLayout(Dataset):
             ann_box = []
             ann_cat = []
             for ann in image_to_annotations[image_id]:
-                x, y, w, h = ann["bbox"]
-                ann_box.append([x, y, w, h])
-                ann_cat.append(self.json_category_id_to_contiguous_id[ann["category_id"]])
+                for i in ann['segments_info']:
+                    x, y, w, h = i["bbox"]
+                    ann_box.append([x, y, w, h])
+                    ann_cat.append(self.json_category_id_to_contiguous_id[i["category_id"]])
 
             # Sort boxes
-            ann_box = np.array(ann_box)
+            if len(ann_box) == 0:
+                continue
+            ann_box = np.array(ann_box, dtype=np.float32)
             ind = np.lexsort((ann_box[:, 0], ann_box[:, 1]))
             ann_box = ann_box[ind]
        
@@ -145,8 +148,8 @@ class JSONLayout(Dataset):
         # range of wh is [1, large_side]
         # bring xywh to [0, 1]
         boxes[:, [2, 3]] = boxes[:, [2, 3]] - 1
-        boxes[:, [0, 2]] = boxes[:, [0, 2]] / (width - 1)
-        boxes[:, [1, 3]] = boxes[:, [1, 3]] / (height - 1)
+        boxes[:, [0, 2]] = boxes[:, [0, 2]] / (width - 1.0)
+        boxes[:, [1, 3]] = boxes[:, [1, 3]] / (height - 1.0)
         boxes = np.clip(boxes, 0, 1)
 
         # next take xywh to [0, size-1]

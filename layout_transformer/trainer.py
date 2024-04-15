@@ -54,6 +54,7 @@ class Trainer:
         self.fixed_x = None
         self.fixed_y = None
         print("Using wandb")
+        wandb.login(key="139751fd25a8a79f7458b6410f64d0a1a9d0a3f3")
         wandb.init(project='LayoutTransformer', name=args.exp)
         wandb.config.update(args)
 
@@ -91,6 +92,8 @@ class Trainer:
                 if epoch == 0 and not is_train:
                     self.fixed_x = x[:min(4, len(x))]
                     self.fixed_y = y[:min(4, len(y))]
+                
+                break
 
                 # place data on the correct device
                 x = x.to(self.device)

@@ -1,0 +1,49 @@
+
+  0%|                                                                                                                                                                                                        | 0/1848 [00:00<?, ?it/s]/Data4/student_zhihan_data/Anaconda3/envs/control/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+epoch 1 iter 173: train loss 4.16373. lr 2.880000e-04:   9%|████████████▋                                                                                                                          | 174/1848 [00:49<07:57,  3.50it/s]
+Traceback (most recent call last):
+  File "/Data4/student_zhihan_data/Anaconda3/envs/control/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Data4/student_zhihan_data/Anaconda3/envs/control/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/student_zhihan/.vscode-server/extensions/ms-python.debugpy-2024.4.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/__main__.py", line 39, in <module>
+    cli.main()
+  File "/home/student_zhihan/.vscode-server/extensions/ms-python.debugpy-2024.4.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py", line 430, in main
+    run()
+  File "/home/student_zhihan/.vscode-server/extensions/ms-python.debugpy-2024.4.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+  File "/home/student_zhihan/.vscode-server/extensions/ms-python.debugpy-2024.4.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/student_zhihan/.vscode-server/extensions/ms-python.debugpy-2024.4.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/student_zhihan/.vscode-server/extensions/ms-python.debugpy-2024.4.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+  File "/Data4/student_zhihan_data/Diffusion/DeepLayout/layout_transformer/main.py", line 79, in <module>
+    trainer.train()
+  File "/Data4/student_zhihan_data/Diffusion/DeepLayout/layout_transformer/trainer.py", line 146, in train
+    run_epoch('train')
+  File "/Data4/student_zhihan_data/Diffusion/DeepLayout/layout_transformer/trainer.py", line 133, in run_epoch
+    'train loss': loss.item(),
+KeyboardInterrupt

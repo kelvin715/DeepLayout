@@ -1,0 +1,26 @@
+2024-04-12 11:46:02,310 INFO    MainThread:2961648 [wandb_setup.py:_flush():76] Current SDK version is 0.16.4
+2024-04-12 11:46:02,311 INFO    MainThread:2961648 [wandb_setup.py:_flush():76] Configure stats pid to 2961648
+2024-04-12 11:46:02,311 INFO    MainThread:2961648 [wandb_setup.py:_flush():76] Loading settings from /home/student_zhihan/.config/wandb/settings
+2024-04-12 11:46:02,311 INFO    MainThread:2961648 [wandb_setup.py:_flush():76] Loading settings from /Data4/student_zhihan_data/Diffusion/DeepLayout/layout_transformer/wandb/settings
+2024-04-12 11:46:02,311 INFO    MainThread:2961648 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-04-12 11:46:02,312 INFO    MainThread:2961648 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-04-12 11:46:02,312 INFO    MainThread:2961648 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'layout_transformer/main.py', 'program_abspath': '/Data4/student_zhihan_data/Diffusion/DeepLayout/layout_transformer/main.py', 'program': '/Data4/student_zhihan_data/Diffusion/DeepLayout/layout_transformer/main.py'}
+2024-04-12 11:46:02,312 INFO    MainThread:2961648 [wandb_setup.py:_flush():76] Applying login settings: {'mode': 'offline'}
+2024-04-12 11:46:02,312 INFO    MainThread:2961648 [wandb_init.py:_log_setup():526] Logging user logs to /Data4/student_zhihan_data/Diffusion/DeepLayout/layout_transformer/wandb/offline-run-20240412_114602-kve9ksav/logs/debug.log
+2024-04-12 11:46:02,313 INFO    MainThread:2961648 [wandb_init.py:_log_setup():527] Logging internal logs to /Data4/student_zhihan_data/Diffusion/DeepLayout/layout_transformer/wandb/offline-run-20240412_114602-kve9ksav/logs/debug-internal.log
+2024-04-12 11:46:02,313 INFO    MainThread:2961648 [wandb_init.py:init():566] calling init triggers
+2024-04-12 11:46:02,313 INFO    MainThread:2961648 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2024-04-12 11:46:02,313 INFO    MainThread:2961648 [wandb_init.py:init():616] starting backend
+2024-04-12 11:46:02,314 INFO    MainThread:2961648 [wandb_init.py:init():620] setting up manager
+2024-04-12 11:46:02,318 INFO    MainThread:2961648 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-04-12 11:46:02,321 INFO    MainThread:2961648 [wandb_init.py:init():628] backend started and connected
+2024-04-12 11:46:02,328 INFO    MainThread:2961648 [wandb_init.py:init():720] updated telemetry
+2024-04-12 11:46:02,376 INFO    MainThread:2961648 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-04-12 11:46:02,392 INFO    MainThread:2961648 [wandb_init.py:init():804] starting run threads in backend
+2024-04-12 11:46:08,383 INFO    MainThread:2961648 [wandb_run.py:_console_start():2241] atexit reg
+2024-04-12 11:46:08,384 INFO    MainThread:2961648 [wandb_run.py:_redirect():2096] redirect: wrap_raw
+2024-04-12 11:46:08,384 INFO    MainThread:2961648 [wandb_run.py:_redirect():2161] Wrapping output streams.
+2024-04-12 11:46:08,384 INFO    MainThread:2961648 [wandb_run.py:_redirect():2186] Redirects installed.
+2024-04-12 11:46:08,385 INFO    MainThread:2961648 [wandb_init.py:init():847] run started, returning control to user process
+2024-04-12 11:46:08,386 INFO    MainThread:2961648 [wandb_run.py:_config_callback():1343] config_cb None None {'exp': 'layout', 'log_dir': './logs', 'data_dir': None, 'threshold': 16, 'train_json': '/Data4/student_zhihan_data/Diffusion/annotations/panoptic_train2017.json', 'val_json': '/Data4/student_zhihan_data/Diffusion/annotations/panoptic_val2017.json', 'max_length': 128, 'precision': 8, 'element_order': 'raster', 'attribute_order': 'cxywh', 'seed': 42, 'epochs': 10, 'batch_size': 64, 'lr': 4.5e-06, 'n_layer': 6, 'n_embd': 512, 'n_head': 8, 'lr_decay': False, 'warmup_iters': 0, 'final_iters': 0, 'sample_every': 1}

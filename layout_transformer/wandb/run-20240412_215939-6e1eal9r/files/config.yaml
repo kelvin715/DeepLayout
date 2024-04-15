@@ -1,0 +1,99 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.8.5
+    cli_version: 0.16.4
+    framework: huggingface
+    huggingface_version: 4.38.2
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1712930379.0
+    t:
+      1:
+      - 1
+      - 11
+      - 41
+      - 49
+      - 55
+      - 105
+      2:
+      - 1
+      - 11
+      - 41
+      - 49
+      - 55
+      - 105
+      3:
+      - 13
+      - 23
+      4: 3.8.5
+      5: 0.16.4
+      6: 4.38.2
+      8:
+      - 5
+      13: linux-x86_64
+exp:
+  desc: null
+  value: layout
+log_dir:
+  desc: null
+  value: ./logs
+data_dir:
+  desc: null
+  value: null
+threshold:
+  desc: null
+  value: 16
+train_json:
+  desc: null
+  value: /Data4/student_zhihan_data/Diffusion/annotations/panoptic_train2017.json
+val_json:
+  desc: null
+  value: /Data4/student_zhihan_data/Diffusion/annotations/panoptic_val2017.json
+max_length:
+  desc: null
+  value: 128
+precision:
+  desc: null
+  value: 8
+element_order:
+  desc: null
+  value: raster
+attribute_order:
+  desc: null
+  value: cxywh
+seed:
+  desc: null
+  value: 42
+epochs:
+  desc: null
+  value: 10
+batch_size:
+  desc: null
+  value: 64
+lr:
+  desc: null
+  value: 4.5e-06
+n_layer:
+  desc: null
+  value: 6
+n_embd:
+  desc: null
+  value: 512
+n_head:
+  desc: null
+  value: 8
+lr_decay:
+  desc: null
+  value: false
+warmup_iters:
+  desc: null
+  value: 0
+final_iters:
+  desc: null
+  value: 0
+sample_every:
+  desc: null
+  value: 1
